@@ -13,6 +13,7 @@ repositories {
 dependencies {
     implementation("io.ktor:ktor-server-core:2.3.12")
     implementation("io.ktor:ktor-server-netty:2.3.12")
+    testImplementation("io.ktor:ktor-server-test-host:2.3.12")
     testImplementation(kotlin("test"))
     testImplementation("org.junit.jupiter:junit-jupiter:5.10.2")
 }
